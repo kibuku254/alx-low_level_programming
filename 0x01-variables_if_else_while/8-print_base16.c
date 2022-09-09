@@ -1,49 +1,18 @@
 #include <stdio.h>
-
 /**
- *
- *  * main - prints all numbers of base 16.
- *
- *  (*
- *
- *   * Return: 0 on success
- *
- *    */
-
+ * main - prints the alphabet in reverse.
+(*
+ * Return: 0 on success
+ */
 int main(void)
-
 {
+	char c = 'z';
 
-		int i = '0';
-
-
-
-			while (i <= '9')
-
-					{
-
-								putchar(i);
-
-										i++;
-
-											}
-
-				i = 'a';
-
-					while (i <= 'f')
-
-							{
-
-										putchar(i);
-
-												i++;
-
-													}
-
-						putchar('\n');
-
-							return (0);
-
-
-
+	while (c >= 'a')
+	{
+		putchar(c);
+		c--;
+	}
+	putchar('\n');
+	return (0);
 }
