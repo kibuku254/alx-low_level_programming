@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <main.h>
 /**
  * main - Prints out the larget prime factor of 612852475143
  * Return:return 0 with success.
